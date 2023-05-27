@@ -22,7 +22,7 @@ matchTime = str(data['gameTime'])
 replay = matchData['replayName']
 nomemappa = matchData['mapName']
 nomemappa = nomemappa.replace('_',' ')
-path = os.path.join(os.getcwd()+'/rw-hps/StartServer/data/replays/',replay)
+path = os.path.join(os.getcwd()+'/RW-HPS-2.1.0-M1/StartServer/data/replays/',replay)
 
 for i in range(len(keys)):
     if(i != 3):
